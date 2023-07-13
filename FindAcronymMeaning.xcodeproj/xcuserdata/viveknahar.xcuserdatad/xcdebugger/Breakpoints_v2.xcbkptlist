@@ -3,4 +3,86 @@
    uuid = "5B24E42C-094E-4155-9E72-B68A5EF94BCC"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EABACCD9-2A82-4720-B9AD-4095825018B0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindAcronymMeaningTests/FindAcronymVCTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "setUpWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44C5182A-1CB4-4236-9C63-6383FD62F702"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindAcronymMeaningTests/FindAcronymVCTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "testNumberOfRows()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "44C5182A-1CB4-4236-9C63-6383FD62F702 - a236381837f6383b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FindAcronymMeaningTests.FindAcronymVCTest.testNumberOfRows() -&gt; ()"
+                  moduleName = "FindAcronymMeaningTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viveknahar/Downloads/FindAcronymMeaning/FindAcronymMeaningTests/FindAcronymVCTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "121">
+               </Location>
+               <Location
+                  uuid = "44C5182A-1CB4-4236-9C63-6383FD62F702 - 72d004c38ea1cdba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in FindAcronymMeaningTests.FindAcronymVCTest.testNumberOfRows() -&gt; ()"
+                  moduleName = "FindAcronymMeaningTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/viveknahar/Downloads/FindAcronymMeaning/FindAcronymMeaningTests/FindAcronymVCTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "207">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD67E604-F843-4C1C-B51D-8F50EC736F66"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FindAcronymMeaningTests/FindAcronymVCTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "setUp()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

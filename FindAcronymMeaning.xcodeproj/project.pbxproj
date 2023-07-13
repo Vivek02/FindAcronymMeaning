@@ -19,7 +19,8 @@
 		75DF66492A5C72E4006C6FD7 /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = 75DF66482A5C72E4006C6FD7 /* Products.json */; };
 		75FE7AA32A5D28C200B5B3BE /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE7AA22A5D28C200B5B3BE /* ProductTableViewCell.swift */; };
 		75FE7AAD2A5D45AE00B5B3BE /* FindAcronymMeaningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE7AAC2A5D45AE00B5B3BE /* FindAcronymMeaningTests.swift */; };
-		75FE7AB42A5D45FF00B5B3BE /* FindAcronymViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE7AB32A5D45FF00B5B3BE /* FindAcronymViewModelTests.swift */; };
+		E2AFB8A22A5FBCAA008E99B5 /* FindAcronymViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AFB8A12A5FBCAA008E99B5 /* FindAcronymViewControllerTests.swift */; };
+		E2AFB8A32A5FBE5B008E99B5 /* FindAcronymViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FE7AB32A5D45FF00B5B3BE /* FindAcronymViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		75FE7AAA2A5D45AE00B5B3BE /* FindAcronymMeaningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindAcronymMeaningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FE7AAC2A5D45AE00B5B3BE /* FindAcronymMeaningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAcronymMeaningTests.swift; sourceTree = "<group>"; };
 		75FE7AB32A5D45FF00B5B3BE /* FindAcronymViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAcronymViewModelTests.swift; sourceTree = "<group>"; };
+		E2AFB8A12A5FBCAA008E99B5 /* FindAcronymViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAcronymViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 			children = (
 				75FE7AAC2A5D45AE00B5B3BE /* FindAcronymMeaningTests.swift */,
 				75FE7AB32A5D45FF00B5B3BE /* FindAcronymViewModelTests.swift */,
+				E2AFB8A12A5FBCAA008E99B5 /* FindAcronymViewControllerTests.swift */,
 			);
 			path = FindAcronymMeaningTests;
 			sourceTree = "<group>";
@@ -288,7 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				75FE7AAD2A5D45AE00B5B3BE /* FindAcronymMeaningTests.swift in Sources */,
-				75FE7AB42A5D45FF00B5B3BE /* FindAcronymViewModelTests.swift in Sources */,
+				E2AFB8A32A5FBE5B008E99B5 /* FindAcronymViewModelTests.swift in Sources */,
+				E2AFB8A22A5FBCAA008E99B5 /* FindAcronymViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@
         <!--Search-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FindAcronymViewController" customModule="FindAcronymMeaning" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FindAcronymViewController" id="BYZ-38-t0r" customClass="FindAcronymViewController" customModule="FindAcronymMeaning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,20 +27,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88j-yy-0eM">
-                                                    <rect key="frame" x="20" y="27" width="42" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="Kdj-NG-b3L"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="This is temporary text. This is temporary text. This is temporary text. This is temporary text. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88j-yy-0eM">
+                                                    <rect key="frame" x="20" y="21" width="291.66666666666669" height="32"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nne-Po-LeE">
-                                                    <rect key="frame" x="328" y="27" width="42" height="21"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="OQl-EM-LBn"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12345" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nne-Po-LeE">
+                                                    <rect key="frame" x="321.66666666666669" y="21" width="48.333333333333314" height="32"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -48,10 +42,11 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="nne-Po-LeE" firstAttribute="trailing" secondItem="Nqy-ld-N8Y" secondAttribute="trailingMargin" id="1Fd-Ic-mac"/>
-                                                <constraint firstItem="88j-yy-0eM" firstAttribute="top" secondItem="Nqy-ld-N8Y" secondAttribute="topMargin" constant="16" id="Apf-N1-OZ9"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="nne-Po-LeE" secondAttribute="bottom" constant="15" id="NTL-6K-EsX"/>
-                                                <constraint firstItem="nne-Po-LeE" firstAttribute="top" secondItem="Nqy-ld-N8Y" secondAttribute="topMargin" constant="16" id="UKc-LG-VyY"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="88j-yy-0eM" secondAttribute="bottom" constant="15" id="aFp-wS-1Rd"/>
+                                                <constraint firstItem="88j-yy-0eM" firstAttribute="top" secondItem="Nqy-ld-N8Y" secondAttribute="topMargin" constant="10" id="Apf-N1-OZ9"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="nne-Po-LeE" secondAttribute="bottom" constant="10" id="NTL-6K-EsX"/>
+                                                <constraint firstItem="nne-Po-LeE" firstAttribute="top" secondItem="Nqy-ld-N8Y" secondAttribute="topMargin" constant="10" id="UKc-LG-VyY"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="88j-yy-0eM" secondAttribute="bottom" constant="10" id="aFp-wS-1Rd"/>
+                                                <constraint firstItem="nne-Po-LeE" firstAttribute="leading" secondItem="88j-yy-0eM" secondAttribute="trailing" constant="10" id="mLN-gP-PmN"/>
                                                 <constraint firstItem="88j-yy-0eM" firstAttribute="leading" secondItem="Nqy-ld-N8Y" secondAttribute="leadingMargin" id="vZA-OA-am3"/>
                                             </constraints>
                                         </tableViewCellContentView>

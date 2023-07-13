@@ -34,7 +34,7 @@ class WebServiceManager {
             }
         }
         //as per TCS policy we can't use external URL so we parse Mock data
-        let isMock = false
+        let isMock = true
         if(isMock) {
             do {
                 // creating a path from the main bundle and getting data object from the path

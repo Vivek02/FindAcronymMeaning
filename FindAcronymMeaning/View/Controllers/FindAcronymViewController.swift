@@ -51,3 +51,13 @@ extension FindAcronymViewController: UISearchBarDelegate {
         }
     }
 }
+
+extension FindAcronymViewController {
+    static func instantiate() -> Self? {
+        guard let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "FindAcronymViewController") as? Self else {
+            return nil
+        }
+        return vc
+    }
+    
+}
